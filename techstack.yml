@@ -1,0 +1,131 @@
+repo_name: dekolor/docker-nginx-php-mysql
+report_id: 940a812704d6021bd1d22f3831d18fc2
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-28T11:28:20+00:00'
+requested_by: nanoninja
+provider: github
+branch: master
+detected_tools_count: 10
+tools:
+- name: PHP
+  description: A popular general-purpose scripting language that is especially suited
+    to web development
+  website_url: http://www.php.net/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/991/hwUcGZ41_400x400.jpg
+  detection_source_url: https://github.com/dekolor/docker-nginx-php-mysql
+  detection_source: Repo Metadata
+- name: ceph
+  description: A free-software storage platform
+  website_url: http://ceph.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: File Storage
+  image_url: https://img.stackshare.io/service/1818/cephglyph_copy_400x400.png
+  detection_source_url: https://github.com/dekolor/docker-nginx-php-mysql/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Vincent Letourneau
+  last_updated_on: 2017-01-15 14:48:31.000000000 Z
+- name: Cloud DB for Mysql
+  description: Easily setup and manage the MySQL database service
+  website_url: https://www.ncloud.com/product/database/cloudDbMysql
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: SQL Database as a Service
+  image_url: https://img.stackshare.io/service/21275/default_078eb0ae2b56280a937ed073a3ba4332291f9ba8.png
+  detection_source_url: https://github.com/dekolor/docker-nginx-php-mysql/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Vincent Letourneau
+  last_updated_on: 2018-04-29 08:58:11.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/dekolor/docker-nginx-php-mysql/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Vincent Letourneau
+  last_updated_on: 2017-01-15 14:48:31.000000000 Z
+- name: Composer
+  description: Dependency Manager for PHP
+  website_url: https://getcomposer.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/1688/New_Project__65_.png
+  detection_source_url: https://github.com/dekolor/docker-nginx-php-mysql/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Vincent Letourneau
+  last_updated_on: 2017-08-03 11:33:57.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/dekolor/docker-nginx-php-mysql
+  detection_source: Repo Metadata
+- name: NGINX
+  description: A high performance free open source web server powering busiest sites
+    on the Internet.
+  website_url: http://nginx.org
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Servers
+  image_url: https://img.stackshare.io/service/1052/YMxUfyWf.png
+  detection_source_url: https://github.com/dekolor/docker-nginx-php-mysql/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Vincent Letourneau
+  last_updated_on: 2017-12-19 10:43:19.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/dekolor/docker-nginx-php-mysql/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Vincent Letourneau
+  last_updated_on: 2017-07-29 09:34:01.000000000 Z
+- name: phpMyAdmin
+  description: A free software, for MySQL and MariaDB
+  website_url: https://www.phpmyadmin.net/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Performance Monitoring
+  image_url: https://img.stackshare.io/service/2102/3pl3dljQ_400x400.png
+  detection_source_url: https://github.com/dekolor/docker-nginx-php-mysql/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Vincent Letourneau
+  last_updated_on: 2017-01-15 14:48:31.000000000 Z
+- name: Alpine Linux
+  description: Security-oriented, lightweight Linux distribution based on musl libc
+    and busybox
+  website_url: https://www.alpinelinux.org/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/6429/alpine_linux.png
+  detection_source_url: https://github.com/dekolor/docker-nginx-php-mysql/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: Vincent Letourneau
+  last_updated_on: 2017-12-19 10:43:19.000000000 Z
